@@ -3,7 +3,8 @@ const jquery = 'jquery/src/jquery';
 
 module.exports = {
     entry: {
-        app: './src/app'
+        app: './src/app',
+        index: './src/index'
     },
     output: {
         path: __dirname + '/public/js/',
